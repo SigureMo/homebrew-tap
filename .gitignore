@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# zip files
+*.tar.gz
+*.zip
