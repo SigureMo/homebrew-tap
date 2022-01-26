@@ -7,8 +7,8 @@ class Yutto < Formula
   sha256 "eb5a26d5c34c1b5f1964d572d1240ba8492c0bbcdd18978480d04d0b453024a4"
   license "GPL-3.0"
 
-  depends_on "python@3.10"
   depends_on "ffmpeg"
+  depends_on "python@3.10"
 
   def install
     virtualenv_install_with_resources
