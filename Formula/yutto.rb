@@ -79,7 +79,7 @@ class Yutto < Formula
     virtualenv_install_with_resources
   end
 
-  test do
-    # TODO: some command likes `yutto run-checks`
-  end
+  # test do
+  #   # TODO: some command likes `yutto run-checks`
+  # end
 end
