@@ -1,3 +1,8 @@
+# How to update this formula?
+# See [Python-for-Formula-Authors](https://docs.brew.sh/Python-for-Formula-Authors).
+# 1. Update url and sha256 field refer to [PyPI](https://pypi.org/project/<pkg>/#files).
+# 2. Run `brew update-python-resources <formula>` to write resource stanzas.
+
 class Yutto < Formula
   include Language::Python::Virtualenv
 
