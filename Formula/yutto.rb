@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/cf/2d/5f85c6e137c3e526cd1fd5e829320295112a8a5dde8e96c21333e0666f73/yutto-2.0.0b9.tar.gz"
-  sha256 "1ce9485db721eff2a82f24304f3f74c0c61705b1e6f412de362daadde67686fd"
+  url "https://files.pythonhosted.org/packages/ae/cb/aae8ee834c448c85222d68fc17f25968ee8171f400500305002b321e4709/yutto-2.0.0b10.tar.gz"
+  sha256 "aecbaae8ee834c448c85222d68fc17f25968ee8171f400500305002b321e4709"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -46,8 +46,8 @@ class Yutto < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/48/44/76b179e0d1afe6e6a91fd5661c284f60238987f3b42b676d141d01cd5b97/charset-normalizer-2.0.10.tar.gz"
-    sha256 "876d180e9d7432c5d1dfd4c5d26b72f099d503e8fcc0feb7532c9289be60fcbd"
+    url "https://files.pythonhosted.org/packages/e8/e8/b6cfd28fb430b2ec9923ad0147025bf8bbdf304b1eb3039b69f1ce44ed6e/charset-normalizer-2.0.11.tar.gz"
+    sha256 "98398a9d69ee80548c762ba991a4728bfc3836768ed226b3945908d1a688371c"
   end
 
   resource "dicttoxml" do
@@ -71,8 +71,8 @@ class Yutto < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/d9/d5/bf6c307f58b4c486f6517341d2f2673cd889b7d3a83cae78a9081233c679/protobuf-3.19.3.tar.gz"
-    sha256 "d975a6314fbf5c524d4981e24294739216b5fb81ef3c14b86fb4b045d6690907"
+    url "https://files.pythonhosted.org/packages/6c/49/f864b9fd6310d9a15ddae5b37d78dff1df0e2e1da476442fee062c6032b2/protobuf-3.19.4.tar.gz"
+    sha256 "9df0c10adf3e83015ced42a9a7bd64e13d06c4cf45c340d2c63020ea04499d0a"
   end
 
   resource "yarl" do
