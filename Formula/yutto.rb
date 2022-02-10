@@ -9,7 +9,7 @@ class Yutto < Formula
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
   url "https://files.pythonhosted.org/packages/ae/cb/aae8ee834c448c85222d68fc17f25968ee8171f400500305002b321e4709/yutto-2.0.0b10.tar.gz"
-  sha256 "aecbaae8ee834c448c85222d68fc17f25968ee8171f400500305002b321e4709"
+  sha256 "8562135e8b808a6735d5c135fd77f15327ca19d6d451a53af12b53b9cca0f71a"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
