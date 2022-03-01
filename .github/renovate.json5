@@ -1,16 +1,4 @@
 // https://docs.renovatebot.com/configuration-options/
 {
-  extends: ["config:base"],
-  labels: ["dependencies"],
-  pin: false,
-  commitMessagePrefix: "⬆️ deps: ",
-  dependencyDashboardTitle: "☑️ Dependency Dashboard",
-  packageRules: [
-    {
-      matchUpdateTypes: ["minor", "patch", "pin", "digest"],
-      automerge: true,
-      automergeType: "pr",
-      automergeStrategy: "squash",
-    },
-  ],
+  extends: ["github>SigureMo/renovate-config"],
 }
