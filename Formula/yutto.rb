@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/10/a5/bb5020ba378d86ceb924c7e091b157e9a5f50ce67d5ff5e22489cdb28746/yutto-2.0.0b13.tar.gz"
-  sha256 "5ea7dbbe5689a113e9c27694039d8a9683ac10e22ddd833472adfa0d937a951f"
+  url "https://files.pythonhosted.org/packages/d5/18/e1a4e64faaa105ebf092ca734fa8670878f8b516314cb9647199fd1f86dc/yutto-2.0.0b14.tar.gz"
+  sha256 "81d7ed31f33f4a9d1dd4591fe2b879de0f569b8816961858a011d5a2d66e5359"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -41,8 +41,8 @@ class Yutto < Formula
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/3a/00/ce6b7d42c3859f671d35f03bcff3609382c9f1f4d489d38623ce1e4a0c94/biliass-1.3.4.tar.gz"
-    sha256 "924b4afbaacbc188641bb2e24c196005b88837c6a9c1e83897ca494938ca414e"
+    url "https://files.pythonhosted.org/packages/95/a2/4c387361b1630a008b1f450b556d26e8dd1c7281605f967ef686c4fae546/biliass-1.3.5.tar.gz"
+    sha256 "920a10517da5e5810d128cdc9df96ec2f7003b5652c657c73d521af40056e885"
   end
 
   resource "charset-normalizer" do
@@ -71,8 +71,8 @@ class Yutto < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/6d/3e/40c56d21154a1f3ababb69f675333d7fb70c8293f9ca42ea3e448327fc50/protobuf-3.20.0.tar.gz"
-    sha256 "71b2c3d1cd26ed1ec7c8196834143258b2ad7f444efff26fdc366c6f5e752702"
+    url "https://files.pythonhosted.org/packages/e3/44/4da87f98e95425f62fdf53b796e770c817d4d98e37284a64925caf08f5bd/protobuf-4.21.0.tar.gz"
+    sha256 "6efbe40afb1b0303def53b3c5ce211b14e10d73d63a3f8b669ac0e3b74e8f863"
   end
 
   resource "yarl" do
