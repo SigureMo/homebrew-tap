@@ -11,9 +11,10 @@ class Yutto < Formula
   url "https://files.pythonhosted.org/packages/a4/e3/d124b8a711717fc16134fc80d6b51623bbcec83206a7ae7702d9394b61f0/yutto-2.0.0b16.tar.gz"
   sha256 "68699ac99197984c95b942832ab81c62e3cab226ff739a2ee4267e49a83a12f9"
   license "GPL-3.0"
+  revision 1 # TODO: remove at next release
 
   depends_on "ffmpeg"
-  depends_on "python@3.11"
+  depends_on "python@3.10" # TODO: set to python3.11 at next release
 
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/86/26/6e5060a159a6131c430e8a01ec8327405a19a449a506224b394e36f2ebc9/aiofiles-22.1.0.tar.gz"
