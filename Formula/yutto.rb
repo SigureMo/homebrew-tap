@@ -8,13 +8,12 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/a4/e3/d124b8a711717fc16134fc80d6b51623bbcec83206a7ae7702d9394b61f0/yutto-2.0.0b16.tar.gz"
-  sha256 "68699ac99197984c95b942832ab81c62e3cab226ff739a2ee4267e49a83a12f9"
+  url "https://files.pythonhosted.org/packages/e1/ff/3870a036cfce87d14c0fb9afed23adc3d464fb422702b7b24b42bbf4011f/yutto-2.0.0b17.dev1.tar.gz"
+  sha256 "7f77d254ca2a462914c8626c5059f1d354486d41277d98b88a681695d745b78c"
   license "GPL-3.0"
-  revision 1 # TODO: remove at next release
 
   depends_on "ffmpeg"
-  depends_on "python@3.10" # TODO: set to python3.11 at next release
+  depends_on "python@3.11" # TODO: set to python3.11 at next release
 
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/86/26/6e5060a159a6131c430e8a01ec8327405a19a449a506224b394e36f2ebc9/aiofiles-22.1.0.tar.gz"
@@ -42,8 +41,8 @@ class Yutto < Formula
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/95/a2/4c387361b1630a008b1f450b556d26e8dd1c7281605f967ef686c4fae546/biliass-1.3.5.tar.gz"
-    sha256 "920a10517da5e5810d128cdc9df96ec2f7003b5652c657c73d521af40056e885"
+    url "https://files.pythonhosted.org/packages/2c/08/9bf37684cd012d9af4ce9b91870d80e65fbdc05000dbbe9bf4a690770fe2/biliass-1.3.7.dev1.tar.gz"
+    sha256 "60e9e14547c9e6038209ccb96914ce389224b45ae8e957f7c2f977d271513c37"
   end
 
   resource "charset-normalizer" do
