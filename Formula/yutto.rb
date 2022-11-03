@@ -8,12 +8,12 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/e1/ff/3870a036cfce87d14c0fb9afed23adc3d464fb422702b7b24b42bbf4011f/yutto-2.0.0b17.dev1.tar.gz"
-  sha256 "7f77d254ca2a462914c8626c5059f1d354486d41277d98b88a681695d745b78c"
+  url "https://files.pythonhosted.org/packages/36/a2/200cb97e97e11a66d159b0fd4426fd7b6a5585547b3dbbd4be24aa78dfef/yutto-2.0.0b17.tar.gz"
+  sha256 "82da41fd55814df0b55aca0af867688ede8b027de13bb75de6e17a3dd2a0c8ad"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
-  depends_on "python@3.11" # TODO: set to python3.11 at next release
+  depends_on "python@3.11"
 
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/86/26/6e5060a159a6131c430e8a01ec8327405a19a449a506224b394e36f2ebc9/aiofiles-22.1.0.tar.gz"
