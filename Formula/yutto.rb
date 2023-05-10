@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/a6/95/4a807669b6d8a5c4eb6279adba8b6805969b9f9424f67ddbba6fd19930fb/yutto-2.0.0b24.tar.gz"
-  sha256 "6674431a026eefc2a8487bf39d88413440c98a1526f6b51d95be6d5e6729b937"
+  url "https://files.pythonhosted.org/packages/67/ae/cc6d485a56e39cddc0f3f5e35f4dce22343c11ae6537b2d194070fc4714c/yutto-2.0.0b25.tar.gz"
+  sha256 "0176bcb79c5086cc0fb25ccbc30ed71e2d1aee2f3ea9b34047cd97109f3c2dfc"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -50,9 +50,9 @@ class Yutto < Formula
     sha256 "34e0a2f9c370eb95597aae63bf85eb5e96826d81e3dcf88b8886012906f509b5"
   end
 
-  resource "dicttoxml" do
-    url "https://files.pythonhosted.org/packages/ee/c9/3132427f9e64d572688e6a1cbe3d542d1a03f676b81fb600f3d1fd7d2ec5/dicttoxml-1.7.16.tar.gz"
-    sha256 "6f36ce644881db5cd8940bee9b7cb3f3f6b7b327ba8a67d83d3e2caa0538bf9d"
+  resource "dict2xml" do
+    url "https://files.pythonhosted.org/packages/59/19/2e36329ad47671bd3701cf5dbb94b09fdc407d9635c75131f200ee6ec7dc/dict2xml-1.7.3.tar.gz"
+    sha256 "02a5c198d0fecdfeb52644e9d905200a36c031e11c201362d7d217df684bc15d"
   end
 
   resource "frozenlist" do
@@ -71,8 +71,8 @@ class Yutto < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/e2/86/44a1e4990a81cb4248a2091a182bb76a6417fddcaff560ceb6b44eb05c55/protobuf-4.22.3.tar.gz"
-    sha256 "23452f2fdea754a8251d0fc88c0317735ae47217e0d27bf330a30eec2848811a"
+    url "https://files.pythonhosted.org/packages/60/1a/79f077c5baf5a9262ed41cc0909c1230ecac5cb4f4960cd97942c88d1726/protobuf-4.23.0.tar.gz"
+    sha256 "5f1eba1da2a2f3f7df469fccddef3cc060b8a16cfe3cc65961ad36b4dbcf59c5"
   end
 
   resource "typing-extensions" do
@@ -81,8 +81,8 @@ class Yutto < Formula
   end
 
   resource "yarl" do
-    url "https://files.pythonhosted.org/packages/c4/1e/1b204050c601d5cd82b45d5c8f439cb6f744a2ce0c0a6f83be0ddf0dc7b2/yarl-1.8.2.tar.gz"
-    sha256 "49d43402c6e3013ad0978602bf6bf5328535c48d192304b91b97a3c6790b1562"
+    url "https://files.pythonhosted.org/packages/5f/3f/04b3c5e57844fb9c034b09c5cb6d2b43de5d64a093c30529fd233e16cf09/yarl-1.9.2.tar.gz"
+    sha256 "04ab9d4b9f587c06d801c2abfe9317b77cdf996c65a90d5e84ecc45010823571"
   end
 
   def install
