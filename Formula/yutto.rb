@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/63/93/c8adb0b3d7a54471c919f37145a5ac2457a9d0c1dd9ff9d7f8ea8a46b7a5/yutto-2.0.0b26.tar.gz"
-  sha256 "070c38ff5d403c7bfdc1fe1526e8828ad6a4fbe359699cf36c841160986e3b2a"
+  url "https://files.pythonhosted.org/packages/16/cc/686140ab4c9079f61d1d1bf186badcec6e0702e51fc997c6e2b2d4dd2bc5/yutto-2.0.0b27.tar.gz"
+  sha256 "cb795b8d4557549277f60f1621752bd09c7defe0a2e133aef3d83395b8b0412e"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -71,13 +71,13 @@ class Yutto < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/d8/6c/a2a6fe10cdc9bc81e03be56139d5bc70427054eb0b3864b31ff9a2a4849d/protobuf-4.23.1.tar.gz"
-    sha256 "95789b569418a3e32a53f43d7763be3d490a831e9c08042539462b6d972c2d7e"
+    url "https://files.pythonhosted.org/packages/e5/9d/20e9bf4067e85c3074f1f5bac820a3cfb9ce885cddd8a649fe3570659c77/protobuf-4.23.3.tar.gz"
+    sha256 "7a92beb30600332a52cdadbedb40d33fd7c8a0d7f549c440347bc606fb3fe34b"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/be/fc/3d12393d634fcb31d5f4231c28feaf4ead225124ba08021046317d5f450d/typing_extensions-4.6.2.tar.gz"
-    sha256 "06006244c70ac8ee83fa8282cb188f697b8db25bc8b4df07be1873c43897060c"
+    url "https://files.pythonhosted.org/packages/42/56/cfaa7a5281734dadc842f3a22e50447c675a1c5a5b9f6ad8a07b467bffe7/typing_extensions-4.6.3.tar.gz"
+    sha256 "d91d5919357fe7f681a9f2b5b4cb2a5f1ef0a1e9f59c4d8ff0d3491e05c0ffd5"
   end
 
   resource "yarl" do
