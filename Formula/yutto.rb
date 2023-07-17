@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/16/cc/686140ab4c9079f61d1d1bf186badcec6e0702e51fc997c6e2b2d4dd2bc5/yutto-2.0.0b27.tar.gz"
-  sha256 "cb795b8d4557549277f60f1621752bd09c7defe0a2e133aef3d83395b8b0412e"
+  url "https://files.pythonhosted.org/packages/f3/d6/ebb4dda1bed72f896ca9a4c57303a885590b187cf84123c7d6898d7be350/yutto-2.0.0b28.tar.gz"
+  sha256 "8cdf4a0d08c46937fb0540ed19dd3b5b74ed8a344acc3f92b4c45e2e65f8408d"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -46,8 +46,8 @@ class Yutto < Formula
   end
 
   resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/ff/d7/8d757f8bd45be079d76309248845a04f09619a7b17d6dfc8c9ff6433cac2/charset-normalizer-3.1.0.tar.gz"
-    sha256 "34e0a2f9c370eb95597aae63bf85eb5e96826d81e3dcf88b8886012906f509b5"
+    url "https://files.pythonhosted.org/packages/2a/53/cf0a48de1bdcf6ff6e1c9a023f5f523dfe303e4024f216feac64b6eb7f67/charset-normalizer-3.2.0.tar.gz"
+    sha256 "3bb3d25a8e6c0aedd251753a79ae98a093c7e7b471faa3aa9a93a81431987ace"
   end
 
   resource "dict2xml" do
@@ -56,8 +56,8 @@ class Yutto < Formula
   end
 
   resource "frozenlist" do
-    url "https://files.pythonhosted.org/packages/e9/10/d629476346112b85c912527b9080944fd2c39a816c2225413dbc0bb6fcc0/frozenlist-1.3.3.tar.gz"
-    sha256 "58bcc55721e8a90b88332d6cd441261ebb22342e238296bb330968952fbb3a6a"
+    url "https://files.pythonhosted.org/packages/8c/1f/49c96ccc87127682ba900b092863ef7c20302a2144b3185412a08480ca22/frozenlist-1.4.0.tar.gz"
+    sha256 "09163bdf0b2907454042edb19f887c6d33806adc71fbd54afc14908bfdc22251"
   end
 
   resource "idna" do
@@ -71,13 +71,13 @@ class Yutto < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/e5/9d/20e9bf4067e85c3074f1f5bac820a3cfb9ce885cddd8a649fe3570659c77/protobuf-4.23.3.tar.gz"
-    sha256 "7a92beb30600332a52cdadbedb40d33fd7c8a0d7f549c440347bc606fb3fe34b"
+    url "https://files.pythonhosted.org/packages/e2/4f/4bfe731c9491938b832997892577445bc16cef1f1ee450918b77ea370af7/protobuf-4.24.0rc1.tar.gz"
+    sha256 "540db58fd0b77e3617cce9fa8202a616584a20f80db399c88255d1fa275eeb1a"
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/42/56/cfaa7a5281734dadc842f3a22e50447c675a1c5a5b9f6ad8a07b467bffe7/typing_extensions-4.6.3.tar.gz"
-    sha256 "d91d5919357fe7f681a9f2b5b4cb2a5f1ef0a1e9f59c4d8ff0d3491e05c0ffd5"
+    url "https://files.pythonhosted.org/packages/3c/8b/0111dd7d6c1478bf83baa1cab85c686426c7a6274119aceb2bd9d35395ad/typing_extensions-4.7.1.tar.gz"
+    sha256 "b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"
   end
 
   resource "yarl" do
