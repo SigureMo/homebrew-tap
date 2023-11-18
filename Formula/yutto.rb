@@ -8,12 +8,17 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/7e/14/5483b5498b47431a1fe4f5963313ab67b89c640f99d11abaf68a12a68cf0/yutto-2.0.0b30.tar.gz"
-  sha256 "4101319a7a67f8280d47257f7106d8a60182336afc0f338c74dce037e0ef4a8b"
+  url "https://files.pythonhosted.org/packages/94/2a/60bfca38005cfe0683dbde914353fa8e26951b0cdd022a6c5a0306635ab0/yutto-2.0.0b31.tar.gz"
+  sha256 "3d6519e1a747eae68d4485d530637762e9fb9ae6258d00bcc437847acd0c0765"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
-  depends_on "python@3.11"
+  depends_on "python@3.12"
+
+  resource "aiodns" do
+    url "https://files.pythonhosted.org/packages/fa/10/4de99e6e67703d8f6b10ea92a4d2a6c5b96a9c0708b75389a00203387925/aiodns-3.1.1.tar.gz"
+    sha256 "1073eac48185f7a4150cad7f96a5192d6911f12b4fb894de80a088508c9b3a99"
+  end
 
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/af/41/cfed10bc64d774f497a86e5ede9248e1d062db675504b41c320954d99641/aiofiles-23.2.1.tar.gz"
@@ -21,18 +26,13 @@ class Yutto < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/d6/12/6fc7c7dcc84e263940e87cbafca17c1ef28f39dae6c0b10f51e4ccc764ee/aiohttp-3.8.5.tar.gz"
-    sha256 "b9552ec52cc147dbf1944ac7ac98af7602e51ea2dcd076ed194ca3c0d1c7d0bc"
+    url "https://files.pythonhosted.org/packages/71/80/68f3bd93240efd92e9397947301efb76461db48c5ac80be2423ffa9c20a3/aiohttp-3.9.0.tar.gz"
+    sha256 "09f23292d29135025e19e8ff4f0a68df078fe4ee013bca0105b2e803989de92d"
   end
 
   resource "aiosignal" do
     url "https://files.pythonhosted.org/packages/ae/67/0952ed97a9793b4958e5736f6d2b346b414a2cd63e82d05940032f45b32f/aiosignal-1.3.1.tar.gz"
     sha256 "54cd96e15e1649b75d6c87526a6ff0b6c1b0dd3459f43d9ca11d48c339b68cfc"
-  end
-
-  resource "async-timeout" do
-    url "https://files.pythonhosted.org/packages/87/d6/21b30a550dafea84b1b8eee21b5e23fa16d010ae006011221f33dcd8d7f8/async-timeout-4.0.3.tar.gz"
-    sha256 "4640d96be84d82d02ed59ea2b7105a0f7b33abe8703703cd0ab0bf87c427522f"
   end
 
   resource "attrs" do
@@ -45,9 +45,14 @@ class Yutto < Formula
     sha256 "3fb2b76edf0c5c3e87a09eddb90f651bdf728f4955c27f52a84102fd352e74ae"
   end
 
-  resource "charset-normalizer" do
-    url "https://files.pythonhosted.org/packages/cf/ac/e89b2f2f75f51e9859979b56d2ec162f7f893221975d244d8d5277aa9489/charset-normalizer-3.3.0.tar.gz"
-    sha256 "63563193aec44bce707e0c5ca64ff69fa72ed7cf34ce6e11d5127555756fd2f6"
+  resource "Brotli" do
+    url "https://files.pythonhosted.org/packages/2f/c2/f9e977608bdf958650638c3f1e28f85a1b075f075ebbe77db8555463787b/Brotli-1.1.0.tar.gz"
+    sha256 "81de08ac11bcb85841e440c13611c00b67d3bf82698314928d0b676362546724"
+  end
+
+  resource "cffi" do
+    url "https://files.pythonhosted.org/packages/68/ce/95b0bae7968c65473e1298efb042e10cafc7bafc14d9e4f154008241c91d/cffi-1.16.0.tar.gz"
+    sha256 "bcb3ef43e58665bbda2fb198698fcae6776483e0c4a631aa5647806c25e02cc0"
   end
 
   resource "dict2xml" do
@@ -71,8 +76,18 @@ class Yutto < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/79/30/98dc7297ce8c3f0182800d2879703f0196e76d6a28e53ecaafc3901f8118/protobuf-4.24.3.tar.gz"
-    sha256 "12e9ad2ec079b833176d2921be2cb24281fa591f0b119b208b788adc48c2561d"
+    url "https://files.pythonhosted.org/packages/59/5f/b2d00e6a08d97656a27832d4d146e03ffc46ae74b4699740674bea13a905/protobuf-4.25.1.tar.gz"
+    sha256 "57d65074b4f5baa4ab5da1605c02be90ac20c8b40fb137d6a8df9f416b0d0ce2"
+  end
+
+  resource "pycares" do
+    url "https://files.pythonhosted.org/packages/1b/8f/daf60bbc06f4a3cd1cfb0ab807057151287df6f5c78f2e0d298acc9193ac/pycares-4.4.0.tar.gz"
+    sha256 "f47579d508f2f56eddd16ce72045782ad3b1b3b678098699e2b6a1b30733e1c2"
+  end
+
+  resource "pycparser" do
+    url "https://files.pythonhosted.org/packages/5e/0b/95d387f5f4433cb0f53ff7ad859bd2c6051051cebbb564f139a999ab46de/pycparser-2.21.tar.gz"
+    sha256 "e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206"
   end
 
   resource "typing-extensions" do
