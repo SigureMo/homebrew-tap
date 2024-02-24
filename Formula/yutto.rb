@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/4c/db/eb4af18fc79287cc756bbd676ca21c046e06c56881d11c1dd79cb4ed1b7d/yutto-2.0.0b35.tar.gz"
-  sha256 "af82dce4f3248702cc0ba9ca02bbe97fd33837e7a857a3a664adae858eb16710"
+  url "https://files.pythonhosted.org/packages/bf/46/bad22d52ddfdd5557c2d39d5cf0768dd6c671274d39148bf28fce3b475dd/yutto-2.0.0b36.tar.gz"
+  sha256 "62102d3308e84e8e2cc6c952103dfc1bd827974be05c7e0bd778735f57ae7987"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -21,8 +21,8 @@ class Yutto < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/2d/b8/7333d87d5f03247215d86a86362fd3e324111788c6cdd8d2e6196a6ba833/anyio-4.2.0.tar.gz"
-    sha256 "e1875bb4b4e2de1669f4bc7869b6d3f54231cdced71605e6e64c9be77e3be50f"
+    url "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz"
+    sha256 "f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"
   end
 
   resource "biliass" do
@@ -36,8 +36,8 @@ class Yutto < Formula
   end
 
   resource "dict2xml" do
-    url "https://files.pythonhosted.org/packages/60/13/0c8cb9fb142caf36e1a8610cc75b71fc616eb1b6a98d72a38f8e277a7244/dict2xml-1.7.4.tar.gz"
-    sha256 "7066468fc0bc05cf2c1285b1633dcc96a0c15701c408fbd9c4d8098ea4658b84"
+    url "https://files.pythonhosted.org/packages/e3/13/a7223fe6085896ebdc3e35b566aac797385c717d28d687f8d9c83ee7032c/dict2xml-1.7.5.tar.gz"
+    sha256 "e279f4707cf7733f1e56b2cea39e257c727b86f74e449deccc6a712a1cfe4e45"
   end
 
   resource "h11" do
@@ -56,8 +56,8 @@ class Yutto < Formula
   end
 
   resource "httpcore" do
-    url "https://files.pythonhosted.org/packages/94/f1/47528a2f465b09c71caad95f5de1d7225e438cf3d1068d278362a4a6bc6a/httpcore-1.0.3.tar.gz"
-    sha256 "5c0f9546ad17dac4d0772b0808856eb616eb8b48ce94f49ed819fd6982a8a544"
+    url "https://files.pythonhosted.org/packages/03/9d/2055e6b65592d3a485a1141761ba7047674bbe085cebac0988b30e93c9e6/httpcore-1.0.4.tar.gz"
+    sha256 "cb2839ccfcba0d2d3c1131d3c3e26dfc327326fbe7a5dc0dbfe9f6c9151bb022"
   end
 
   resource "httpx" do
@@ -76,8 +76,8 @@ class Yutto < Formula
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/db/a5/05ea470f4e793c9408bc975ce1c6957447e3134ce7f7a58c13be8b2c216f/protobuf-4.25.2.tar.gz"
-    sha256 "fe599e175cb347efc8ee524bcd4b902d11f7262c0e569ececcb89995c15f0a5e"
+    url "https://files.pythonhosted.org/packages/5e/d8/65adb47d921ce828ba319d6587aa8758da022de509c3862a70177a958844/protobuf-4.25.3.tar.gz"
+    sha256 "25b5d0b42fd000320bd7830b349e3b696435f3b329810427a6bcce6a5492cc5c"
   end
 
   resource "sniffio" do
