@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/4a/f1/0e2e5c5c0736ad306d99478cd1be0c3889595b0aff9cc9d502266cba759f/yutto-2.0.0b37.tar.gz"
-  sha256 "8e052eafdbb3f591fb6888bdd9a65bee3a1879859a344a077d38c01ad920ce68"
+  url "https://files.pythonhosted.org/packages/02/55/4379218e987d407fa7fd54cfbb2401bedad1efe41d9dec2b3c0def804f18/yutto-2.0.0b38.tar.gz"
+  sha256 "83d1c0a6d5b6d89ff3c0bc5d5d4984e9f75c68337d1c57b8026dab4e889a6d60"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -71,8 +71,8 @@ class Yutto < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/bf/3f/ea4b9117521a1e9c50344b909be7886dd00a519552724809bb1f486986c2/idna-3.6.tar.gz"
-    sha256 "9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"
+    url "https://files.pythonhosted.org/packages/21/ed/f86a79a07470cb07819390452f178b3bef1d375f2ec021ecfc709fc7cf07/idna-3.7.tar.gz"
+    sha256 "028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc"
   end
 
   resource "protobuf" do
@@ -91,8 +91,8 @@ class Yutto < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/16/3a/0d26ce356c7465a19c9ea8814b960f8a36c3b0d07c323176620b7b483e44/typing_extensions-4.10.0.tar.gz"
-    sha256 "b0abd7c89e8fb96f98db18d86106ff1d90ab692004eb746cf6eda2682f91b3cb"
+    url "https://files.pythonhosted.org/packages/39/c7/6f73e328b82550288c65f714243ae31519d70c52ebcbddeb2293dfabd37b/typing_extensions-4.12.0rc1.tar.gz"
+    sha256 "be199d06d8f09ca2c9425e3aa04a9afba33e892fe079dea959e72df7f8442343"
   end
 
   def install
