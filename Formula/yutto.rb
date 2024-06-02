@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/02/55/4379218e987d407fa7fd54cfbb2401bedad1efe41d9dec2b3c0def804f18/yutto-2.0.0b38.tar.gz"
-  sha256 "83d1c0a6d5b6d89ff3c0bc5d5d4984e9f75c68337d1c57b8026dab4e889a6d60"
+  url "https://files.pythonhosted.org/packages/48/02/df810005784bcf5f748dcac3a8643b7fe5694296d2d3dc5c458fee5f0027/yutto-2.0.0b39.tar.gz"
+  sha256 "594574069f01f322c5e646835cc954f5c4c0444dd86d9ab3ab7695d729600551"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -21,18 +21,18 @@ class Yutto < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/db/4d/3970183622f0330d3c23d9b8a5f52e365e50381fd484d08e3285104333d3/anyio-4.3.0.tar.gz"
-    sha256 "f75253795a87df48568485fd18cdd2a3fa5c4f7c5be8e5e36637733fce06fed6"
+    url "https://files.pythonhosted.org/packages/e6/e3/c4c8d473d6780ef1853d630d581f70d655b4f8d7553c6997958c283039a2/anyio-4.4.0.tar.gz"
+    sha256 "5aadc6a1bbb7cdb0bede386cac5e2940f5e2ff3aa20277e991cf028e0585ce94"
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/2c/30/b334fe79f725cadb2b3f4b59f271e56e4cfdc6853d73995710f6d2e5d7ef/biliass-1.3.7.tar.gz"
-    sha256 "3fb2b76edf0c5c3e87a09eddb90f651bdf728f4955c27f52a84102fd352e74ae"
+    url "https://files.pythonhosted.org/packages/cc/15/26a36e1600ec2a2c8d27e382b7cb4392d8f644795d779f06ec57c9a2c221/biliass-1.3.11.tar.gz"
+    sha256 "64c1b185cfbf1560c77516528e76042b9e71ca17b126f9625f08b771abbfc8fb"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/71/da/e94e26401b62acd6d91df2b52954aceb7f561743aa5ccc32152886c76c96/certifi-2024.2.2.tar.gz"
-    sha256 "0569859f95fc761b18b45ef421b1290a0f65f147e92a1e5eb3e635f9a5e4e66f"
+    url "https://files.pythonhosted.org/packages/07/b3/e02f4f397c81077ffc52a538e0aec464016f1860c472ed33bd2a1d220cc5/certifi-2024.6.2.tar.gz"
+    sha256 "3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"
   end
 
   resource "dict2xml" do
@@ -91,8 +91,8 @@ class Yutto < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/39/c7/6f73e328b82550288c65f714243ae31519d70c52ebcbddeb2293dfabd37b/typing_extensions-4.12.0rc1.tar.gz"
-    sha256 "be199d06d8f09ca2c9425e3aa04a9afba33e892fe079dea959e72df7f8442343"
+    url "https://files.pythonhosted.org/packages/e8/fb/4217a963512b9646274fe4ce0aebc8ebff09bbb86c458c6163846bb65d9d/typing_extensions-4.12.1.tar.gz"
+    sha256 "915f5e35ff76f56588223f15fdd5938f9a1cf9195c0de25130c627e4d597f6d1"
   end
 
   def install
