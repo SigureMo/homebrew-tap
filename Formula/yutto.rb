@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/48/02/df810005784bcf5f748dcac3a8643b7fe5694296d2d3dc5c458fee5f0027/yutto-2.0.0b39.tar.gz"
-  sha256 "594574069f01f322c5e646835cc954f5c4c0444dd86d9ab3ab7695d729600551"
+  url "https://files.pythonhosted.org/packages/3b/a9/af64c4abf084b51f3bc460d930df5e8933bb006b61b509944fa5f73b2a2f/yutto-2.0.0b40.tar.gz"
+  sha256 "737de02779de3cd59a5084d263fd8a9e07c7cde23acb5fba6c234b555e16686e"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -91,8 +91,8 @@ class Yutto < Formula
   end
 
   resource "typing-extensions" do
-    url "https://files.pythonhosted.org/packages/e8/fb/4217a963512b9646274fe4ce0aebc8ebff09bbb86c458c6163846bb65d9d/typing_extensions-4.12.1.tar.gz"
-    sha256 "915f5e35ff76f56588223f15fdd5938f9a1cf9195c0de25130c627e4d597f6d1"
+    url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
+    sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
   end
 
   def install
