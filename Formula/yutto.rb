@@ -8,16 +8,16 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/3b/a9/af64c4abf084b51f3bc460d930df5e8933bb006b61b509944fa5f73b2a2f/yutto-2.0.0b40.tar.gz"
-  sha256 "737de02779de3cd59a5084d263fd8a9e07c7cde23acb5fba6c234b555e16686e"
+  url "https://files.pythonhosted.org/packages/f4/60/309c9621bcef544c076dfbe4f7a9641d35dc298d4c8cb67785fb31bea8b8/yutto-2.0.0b41.tar.gz"
+  sha256 "55e204f723c3253b8aae409b4232cac41dced7635b1843ccf4f86ae0121fcfb9"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
   depends_on "python@3.12"
 
   resource "aiofiles" do
-    url "https://files.pythonhosted.org/packages/af/41/cfed10bc64d774f497a86e5ede9248e1d062db675504b41c320954d99641/aiofiles-23.2.1.tar.gz"
-    sha256 "84ec2218d8419404abcb9f0c02df3f34c6e0a68ed41072acfb1cef5cbc29051a"
+    url "https://files.pythonhosted.org/packages/0b/03/a88171e277e8caa88a4c77808c20ebb04ba74cc4681bf1e9416c862de237/aiofiles-24.1.0.tar.gz"
+    sha256 "22a075c9e5a3810f0c2e48f3008c94d68c65d763b9b03857924c99e57355166c"
   end
 
   resource "anyio" do
@@ -26,18 +26,18 @@ class Yutto < Formula
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/cc/15/26a36e1600ec2a2c8d27e382b7cb4392d8f644795d779f06ec57c9a2c221/biliass-1.3.11.tar.gz"
-    sha256 "64c1b185cfbf1560c77516528e76042b9e71ca17b126f9625f08b771abbfc8fb"
+    url "https://files.pythonhosted.org/packages/e2/97/869ad7b7aa3bd4f732f9670ae23ea0015e8d0f997b0ad41ccf6a8be8541d/biliass-1.3.12.tar.gz"
+    sha256 "fb1ab9a96fbc94a6f8428ce9f80effff2e27894e77402d46ad42cf1257766d19"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/07/b3/e02f4f397c81077ffc52a538e0aec464016f1860c472ed33bd2a1d220cc5/certifi-2024.6.2.tar.gz"
-    sha256 "3cd43f1c6fa7dedc5899d69d3ad0398fd018ad1a17fba83ddaf78aa46c747516"
+    url "https://files.pythonhosted.org/packages/b0/ee/9b19140fe824b367c04c5e1b369942dd754c4c5462d5674002f75c4dedc1/certifi-2024.8.30.tar.gz"
+    sha256 "bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"
   end
 
   resource "dict2xml" do
-    url "https://files.pythonhosted.org/packages/e3/13/a7223fe6085896ebdc3e35b566aac797385c717d28d687f8d9c83ee7032c/dict2xml-1.7.5.tar.gz"
-    sha256 "e279f4707cf7733f1e56b2cea39e257c727b86f74e449deccc6a712a1cfe4e45"
+    url "https://files.pythonhosted.org/packages/07/b3/2db1b077f9a80d30d1729a0af69b7cef8ce5b45c77a1f0f9ebb01b9edce1/dict2xml-1.7.6.tar.gz"
+    sha256 "3e4811f4ef7fca86dede6acf382268ff9bc5735a4aa0e21b465f6eb0c4e81732"
   end
 
   resource "h11" do
@@ -61,8 +61,8 @@ class Yutto < Formula
   end
 
   resource "httpx" do
-    url "https://files.pythonhosted.org/packages/5c/2d/3da5bdf4408b8b2800061c339f240c1802f2e82d55e50bd39c5a881f47f0/httpx-0.27.0.tar.gz"
-    sha256 "a0cb88a46f32dc874e04ee956e4c2764aba2aa228f650b06788ba6bda2962ab5"
+    url "https://files.pythonhosted.org/packages/78/82/08f8c936781f67d9e6b9eeb8a0c8b4e406136ea4c3d1f89a5db71d42e0e6/httpx-0.27.2.tar.gz"
+    sha256 "f7c2be1d2f3c3c3160d441802406b206c2b76f5947b11115e6df10c6c65e66c2"
   end
 
   resource "hyperframe" do
@@ -71,13 +71,13 @@ class Yutto < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/21/ed/f86a79a07470cb07819390452f178b3bef1d375f2ec021ecfc709fc7cf07/idna-3.7.tar.gz"
-    sha256 "028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc"
+    url "https://files.pythonhosted.org/packages/e8/ac/e349c5e6d4543326c6883ee9491e3921e0d07b55fdf3cce184b40d63e72a/idna-3.8.tar.gz"
+    sha256 "d838c2c0ed6fced7693d5e8ab8e734d5f8fda53a039c0164afb0b82e771e3603"
   end
 
   resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/5e/d8/65adb47d921ce828ba319d6587aa8758da022de509c3862a70177a958844/protobuf-4.25.3.tar.gz"
-    sha256 "25b5d0b42fd000320bd7830b349e3b696435f3b329810427a6bcce6a5492cc5c"
+    url "https://files.pythonhosted.org/packages/3c/0b/7a997c8939f698d72bdea14d57116e43d3051fffb3b2964c30938c4a08e6/protobuf-5.28.1.tar.gz"
+    sha256 "42597e938f83bb7f3e4b35f03aa45208d49ae8d5bcb4bc10b9fc825e0ab5e423"
   end
 
   resource "sniffio" do
