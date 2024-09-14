@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/f4/60/309c9621bcef544c076dfbe4f7a9641d35dc298d4c8cb67785fb31bea8b8/yutto-2.0.0b41.tar.gz"
-  sha256 "55e204f723c3253b8aae409b4232cac41dced7635b1843ccf4f86ae0121fcfb9"
+  url "https://files.pythonhosted.org/packages/a6/95/95335a9111a9ef9c5cb2b238e00618af46c3d1f82eccce504896d8f5839c/yutto-2.0.0b42.tar.gz"
+  sha256 "7d27977e93ab984a70ddca2fde9e0085be27a8ad0ec5b42d3b8a483468be2b00"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -26,8 +26,8 @@ class Yutto < Formula
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/e2/97/869ad7b7aa3bd4f732f9670ae23ea0015e8d0f997b0ad41ccf6a8be8541d/biliass-1.3.12.tar.gz"
-    sha256 "fb1ab9a96fbc94a6f8428ce9f80effff2e27894e77402d46ad42cf1257766d19"
+    url "https://files.pythonhosted.org/packages/2f/6c/65b25e28185ce6bdbb3b3906ac5cc64b81d9b24fc7905358016e3b33d6b1/biliass-1.3.13.tar.gz"
+    sha256 "744d661df982453e21ee38036926c5bd7598079fa699030a48c7aefa8fc5a7e1"
   end
 
   resource "certifi" do
@@ -38,6 +38,11 @@ class Yutto < Formula
   resource "dict2xml" do
     url "https://files.pythonhosted.org/packages/07/b3/2db1b077f9a80d30d1729a0af69b7cef8ce5b45c77a1f0f9ebb01b9edce1/dict2xml-1.7.6.tar.gz"
     sha256 "3e4811f4ef7fca86dede6acf382268ff9bc5735a4aa0e21b465f6eb0c4e81732"
+  end
+
+  resource "exceptiongroup" do
+    url "https://files.pythonhosted.org/packages/09/35/2495c4ac46b980e4ca1f6ad6db102322ef3ad2410b79fdde159a4b0f3b92/exceptiongroup-1.2.2.tar.gz"
+    sha256 "47c2edf7c6738fafb49fd34290706d1a1a2f4d1c6df275526b62cbb4aa5393cc"
   end
 
   resource "h11" do
@@ -71,8 +76,8 @@ class Yutto < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/e8/ac/e349c5e6d4543326c6883ee9491e3921e0d07b55fdf3cce184b40d63e72a/idna-3.8.tar.gz"
-    sha256 "d838c2c0ed6fced7693d5e8ab8e734d5f8fda53a039c0164afb0b82e771e3603"
+    url "https://files.pythonhosted.org/packages/00/6f/93e724eafe34e860d15d37a4f72a1511dd37c43a76a8671b22a15029d545/idna-3.9.tar.gz"
+    sha256 "e5c5dafde284f26e9e0f28f6ea2d6400abd5ca099864a67f576f3981c6476124"
   end
 
   resource "protobuf" do
