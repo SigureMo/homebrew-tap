@@ -13,7 +13,7 @@ class Yutto < Formula
   license "GPL-3.0"
   revision 1
 
-  depends_on "rust" => :build  # for `biliass`
+  depends_on "rust" => :build # for `biliass`
   depends_on "ffmpeg"
   depends_on "python@3.12"
 
