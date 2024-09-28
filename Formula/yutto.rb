@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/a6/95/95335a9111a9ef9c5cb2b238e00618af46c3d1f82eccce504896d8f5839c/yutto-2.0.0b42.tar.gz"
-  sha256 "7d27977e93ab984a70ddca2fde9e0085be27a8ad0ec5b42d3b8a483468be2b00"
+  url "https://files.pythonhosted.org/packages/4a/78/a39b9f3578f8422581f93307cbf8af144526be836e1090ea133dbaf243cf/yutto-2.0.0b43.tar.gz"
+  sha256 "cef6a74c14912d93f3083dc2d395aeadc85433deb272ad9962f2fd4293ee12ads"
   license "GPL-3.0"
 
   depends_on "ffmpeg"
@@ -21,13 +21,13 @@ class Yutto < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/e6/e3/c4c8d473d6780ef1853d630d581f70d655b4f8d7553c6997958c283039a2/anyio-4.4.0.tar.gz"
-    sha256 "5aadc6a1bbb7cdb0bede386cac5e2940f5e2ff3aa20277e991cf028e0585ce94"
+    url "https://files.pythonhosted.org/packages/78/49/f3f17ec11c4a91fe79275c426658e509b07547f874b14c1a526d86a83fc8/anyio-4.6.0.tar.gz"
+    sha256 "137b4559cbb034c477165047febb6ff83f390fc3b20bf181c1fc0a728cb8beeb"
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/2f/6c/65b25e28185ce6bdbb3b3906ac5cc64b81d9b24fc7905358016e3b33d6b1/biliass-1.3.13.tar.gz"
-    sha256 "744d661df982453e21ee38036926c5bd7598079fa699030a48c7aefa8fc5a7e1"
+    url "https://files.pythonhosted.org/packages/07/9e/eda0c9f471219deaa9e0091dd7e0b45c89e7dae8fbd09f78d2c2c9fef9b3/biliass-2.0.0b1.tar.gz"
+    sha256 "ac6b29209b585c584234964a56b097f57dafb8edc00366de9e6f5e3d76121b99"
   end
 
   resource "certifi" do
@@ -38,11 +38,6 @@ class Yutto < Formula
   resource "dict2xml" do
     url "https://files.pythonhosted.org/packages/07/b3/2db1b077f9a80d30d1729a0af69b7cef8ce5b45c77a1f0f9ebb01b9edce1/dict2xml-1.7.6.tar.gz"
     sha256 "3e4811f4ef7fca86dede6acf382268ff9bc5735a4aa0e21b465f6eb0c4e81732"
-  end
-
-  resource "exceptiongroup" do
-    url "https://files.pythonhosted.org/packages/09/35/2495c4ac46b980e4ca1f6ad6db102322ef3ad2410b79fdde159a4b0f3b92/exceptiongroup-1.2.2.tar.gz"
-    sha256 "47c2edf7c6738fafb49fd34290706d1a1a2f4d1c6df275526b62cbb4aa5393cc"
   end
 
   resource "h11" do
@@ -76,13 +71,8 @@ class Yutto < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/00/6f/93e724eafe34e860d15d37a4f72a1511dd37c43a76a8671b22a15029d545/idna-3.9.tar.gz"
-    sha256 "e5c5dafde284f26e9e0f28f6ea2d6400abd5ca099864a67f576f3981c6476124"
-  end
-
-  resource "protobuf" do
-    url "https://files.pythonhosted.org/packages/3c/0b/7a997c8939f698d72bdea14d57116e43d3051fffb3b2964c30938c4a08e6/protobuf-5.28.1.tar.gz"
-    sha256 "42597e938f83bb7f3e4b35f03aa45208d49ae8d5bcb4bc10b9fc825e0ab5e423"
+    url "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz"
+    sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
   end
 
   resource "sniffio" do
