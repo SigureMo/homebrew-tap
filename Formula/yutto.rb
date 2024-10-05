@@ -8,10 +8,9 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/97/14/0f8f2ef6d75d82f4f5444b78dff3c712cfb3310b6fe050245f182148a875/yutto-2.0.0rc1.tar.gz"
-  sha256 "cd09981c0539f71b0a4b284a6e983dc1d79cd38d44d615c98f1b8f2ae594d256"
+  url "https://files.pythonhosted.org/packages/99/0a/579e157f296f753467c7adfb6fd4877b872463443c69c340dddf9782c7c1/yutto-2.0.0rc2.tar.gz"
+  sha256 "51dc75aa211a207af573ed3ffa102b9f2fa32f9609cd0e2ae2cf6acf85bce87b"
   license "GPL-3.0"
-  revision 1
 
   depends_on "rust" => :build # for `biliass`
   depends_on "ffmpeg"
@@ -28,8 +27,8 @@ class Yutto < Formula
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/0b/d5/0e713c6597ae2d30ff28d9d0d048476fd2d73ab25dcae8bb5a9ef29b1190/biliass-2.0.0.tar.gz"
-    sha256 "0540aed257aa4f62cb4e78e5e3c45b5bd3a6c4350595e2ce56265c879747e821"
+    url "https://files.pythonhosted.org/packages/46/e0/8ef67c46c28ee8587a849209e191f5b88eb19c9bf31f73cdd35222eec065/biliass-2.1.0.tar.gz"
+    sha256 "c9548564e7f4efa0e75610cc2a0bf31e4d716d906141155ebf670e7c7192e1bf"
   end
 
   resource "certifi" do
