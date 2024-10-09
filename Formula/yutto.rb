@@ -14,7 +14,7 @@ class Yutto < Formula
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
   depends_on "ffmpeg"
-  depends_on "python@3.12"
+  depends_on "python@3.13"
 
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/0b/03/a88171e277e8caa88a4c77808c20ebb04ba74cc4681bf1e9416c862de237/aiofiles-24.1.0.tar.gz"
