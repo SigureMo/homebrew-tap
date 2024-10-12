@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/84/a8/a6f6bd9fea36d013484085e1923e6d3fb6f9950867eb728407f7798be0e2/yutto-2.0.0rc3.tar.gz"
-  sha256 "e15e186308ae8724861652480bd6a89e76875f96afb4dd1889654af999293518"
+  url "https://files.pythonhosted.org/packages/80/d0/ef5a2b9ad5073b3b8e4ce2d34ea301e5f065bd91c673848dc6574870f112/yutto-2.0.0rc4.tar.gz"
+  sha256 "44a9db058121f6f80c53aaa5a53a7cfc6127d2162a50a34336d2ef6badd0ebf8"
   license "GPL-3.0"
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
@@ -104,11 +104,6 @@ class Yutto < Formula
   resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/df/db/f35a00659bc03fec321ba8bce9420de607a1d37f8342eee1863174c69557/typing_extensions-4.12.2.tar.gz"
     sha256 "1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"
-  end
-
-  resource "xdg" do
-    url "https://files.pythonhosted.org/packages/2a/b9/0e6e6f19fb75cf5e1758f4f33c1256738f718966700cffc0fde2f966218b/xdg-6.0.0.tar.gz"
-    sha256 "24278094f2d45e846d1eb28a2ebb92d7b67fc0cab5249ee3ce88c95f649a1c92"
   end
 
   def install
