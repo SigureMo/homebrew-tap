@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/70/cb/10388d8e3c1f0fa67bc06d5f8ff45ae43ae85cd15de10c4c62c7b2a6c9a2/yutto-2.0.0rc6.tar.gz"
-  sha256 "33667790ffff5d0c43227b8a3d4b100c51caeaa2afb2ce848a96bad59b4a8777"
+  url "https://files.pythonhosted.org/packages/24/1c/1271a07f2d6d9bbf7a121917d9ca18e8c9d391c549e1230ecf4a0f4cf3a3/yutto-2.0.0rc7.tar.gz"
+  sha256 "cba3146fa11ef193cb1261d14e6a296cd1dd9dac4021ae60ccbe6df9f1d62358"
   license "GPL-3.0"
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
@@ -27,13 +27,13 @@ class Yutto < Formula
   end
 
   resource "anyio" do
-    url "https://files.pythonhosted.org/packages/f6/40/318e58f669b1a9e00f5c4453910682e2d9dd594334539c7b7817dabb765f/anyio-4.7.0.tar.gz"
-    sha256 "2f834749c602966b7d456a7567cafcb309f96482b5081d14ac93ccd457f9dd48"
+    url "https://files.pythonhosted.org/packages/a3/73/199a98fc2dae33535d6b8e8e6ec01f8c1d76c9adb096c6b7d64823038cde/anyio-4.8.0.tar.gz"
+    sha256 "1d9fe889df5212298c0c0723fa20479d1b94883a2df44bd3897aa91083316f7a"
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/30/f4/18a6a150c2c427420d063c9e951fdc72cb533289273627b06579f70fc421/biliass-2.1.1.tar.gz"
-    sha256 "8474dc6bb8c59457aa86a747df016f333d78150dd4653b23a69d747680d27f25"
+    url "https://files.pythonhosted.org/packages/c1/f5/0982ed1a34a9a780f360d9a3f559a861dda889b886ced4d2043cc7003fc2/biliass-2.2.0.tar.gz"
+    sha256 "94328ebc52e641516cd32d22c1fa6f2d6a5a648c8f0494802d691bb3e8175d4e"
   end
 
   resource "certifi" do
@@ -82,13 +82,13 @@ class Yutto < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/45/0f/27908242621b14e649a84e62b133de45f84c255eecb350ab02979844a788/pydantic-2.10.3.tar.gz"
-    sha256 "cb5ac360ce894ceacd69c403187900a02c4b20b693a9dd1d643e1effab9eadf9"
+    url "https://files.pythonhosted.org/packages/6a/c7/ca334c2ef6f2e046b1144fe4bb2a5da8a4c574e7f2ebf7e16b34a6a2fa92/pydantic-2.10.5.tar.gz"
+    sha256 "278b38dbbaec562011d659ee05f63346951b3a248a6f3642e1bc68894ea2b4ff"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/a6/9f/7de1f19b6aea45aeb441838782d68352e71bfa98ee6fa048d5041991b33e/pydantic_core-2.27.1.tar.gz"
-    sha256 "62a763352879b84aa31058fc931884055fd75089cccbd9d58bb6afd01141b235"
+    url "https://files.pythonhosted.org/packages/fc/01/f3e5ac5e7c25833db5eb555f7b7ab24cd6f8c322d3a3ad2d67a952dc0abc/pydantic_core-2.27.2.tar.gz"
+    sha256 "eb026e5a4c1fee05726072337ff51d1efb6f59090b7da90d30ea58625b1ffb39"
   end
 
   resource "sniffio" do
