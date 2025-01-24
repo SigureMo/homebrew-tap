@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/24/1c/1271a07f2d6d9bbf7a121917d9ca18e8c9d391c549e1230ecf4a0f4cf3a3/yutto-2.0.0rc7.tar.gz"
-  sha256 "cba3146fa11ef193cb1261d14e6a296cd1dd9dac4021ae60ccbe6df9f1d62358"
+  url "https://files.pythonhosted.org/packages/4a/9c/606d7a4efed8e69fa8359b64d77d7f3e248edfea3a3cf77a17c78c07f02c/yutto-2.0.0rc8.tar.gz"
+  sha256 "4b351134bf4087487ba0e08c7900a95df1cbedb4039e535c83e9d65b0ac82857"
   license "GPL-3.0"
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
@@ -57,8 +57,8 @@ class Yutto < Formula
   end
 
   resource "hpack" do
-    url "https://files.pythonhosted.org/packages/3e/9b/fda93fb4d957db19b0f6b370e79d586b3e8528b20252c729c476a2c02954/hpack-4.0.0.tar.gz"
-    sha256 "fc41de0c63e687ebffde81187a948221294896f6bdc0ae2312708df339430095"
+    url "https://files.pythonhosted.org/packages/2c/48/71de9ed269fdae9c8057e5a4c0aa7402e8bb16f2c6e90b3aa53327b113f8/hpack-4.1.0.tar.gz"
+    sha256 "ec5eca154f7056aa06f196a557655c5b009b382873ac8d1e66e79e87535f1dca"
   end
 
   resource "httpcore" do
@@ -72,8 +72,8 @@ class Yutto < Formula
   end
 
   resource "hyperframe" do
-    url "https://files.pythonhosted.org/packages/5a/2a/4747bff0a17f7281abe73e955d60d80aae537a5d203f417fa1c2e7578ebb/hyperframe-6.0.1.tar.gz"
-    sha256 "ae510046231dc8e9ecb1a6586f63d2347bf4c8905914aa84ba585ae85f28a914"
+    url "https://files.pythonhosted.org/packages/02/e7/94f8232d4a74cc99514c13a9f995811485a6903d48e5d952771ef6322e30/hyperframe-6.1.0.tar.gz"
+    sha256 "f630908a00854a7adeabd6382b43923a4c4cd4b821fcb527e6ab9e15382a3b08"
   end
 
   resource "idna" do
@@ -82,8 +82,8 @@ class Yutto < Formula
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/6a/c7/ca334c2ef6f2e046b1144fe4bb2a5da8a4c574e7f2ebf7e16b34a6a2fa92/pydantic-2.10.5.tar.gz"
-    sha256 "278b38dbbaec562011d659ee05f63346951b3a248a6f3642e1bc68894ea2b4ff"
+    url "https://files.pythonhosted.org/packages/b7/ae/d5220c5c52b158b1de7ca89fc5edb72f304a70a4c540c84c8844bf4008de/pydantic-2.10.6.tar.gz"
+    sha256 "ca5daa827cce33de7a42be142548b0096bf05a7e7b365aebfa5f8eeec7128236"
   end
 
   resource "pydantic-core" do
