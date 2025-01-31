@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/4a/9c/606d7a4efed8e69fa8359b64d77d7f3e248edfea3a3cf77a17c78c07f02c/yutto-2.0.0rc8.tar.gz"
-  sha256 "4b351134bf4087487ba0e08c7900a95df1cbedb4039e535c83e9d65b0ac82857"
+  url "https://files.pythonhosted.org/packages/61/40/60e76ab4d16437cd8cd5a6bbc0d8d916dd16772032db892c4ace335ea9b9/yutto-2.0.0.tar.gz"
+  sha256 "daf166209028a3ff34e2682fa64e4e4cd61e38047ca77cc597b3a5fe62503f8c"
   license "GPL-3.0"
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
@@ -37,8 +37,8 @@ class Yutto < Formula
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/0f/bd/1d41ee578ce09523c81a15426705dd20969f5abf006d1afe8aeff0dd776a/certifi-2024.12.14.tar.gz"
-    sha256 "b650d30f370c2b724812bee08008be0c4163b163ddaec3f2546c1caf65f191db"
+    url "https://files.pythonhosted.org/packages/1c/ab/c9f1e32b7b1bf505bf26f0ef697775960db7932abeb7b516de930ba2705f/certifi-2025.1.31.tar.gz"
+    sha256 "3d5da6925056f6f18f119200434a4780a94263f10d1c21d032a6f6b2baa20651"
   end
 
   resource "dict2xml" do
