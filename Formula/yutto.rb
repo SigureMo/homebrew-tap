@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/61/40/60e76ab4d16437cd8cd5a6bbc0d8d916dd16772032db892c4ace335ea9b9/yutto-2.0.0.tar.gz"
-  sha256 "daf166209028a3ff34e2682fa64e4e4cd61e38047ca77cc597b3a5fe62503f8c"
+  url "https://files.pythonhosted.org/packages/24/a9/49ce8b2d28c58d4431fc5bc077cd6d3ae180dd395bbec13bb7d15bedbbed/yutto-2.0.1.tar.gz"
+  sha256 "c420ddf217aafe0a0f073bdf2a4cd5eccc7e982d52b23038c9ae50268373d579"
   license "GPL-3.0"
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
@@ -52,8 +52,8 @@ class Yutto < Formula
   end
 
   resource "h2" do
-    url "https://files.pythonhosted.org/packages/2a/32/fec683ddd10629ea4ea46d206752a95a2d8a48c22521edd70b142488efe1/h2-4.1.0.tar.gz"
-    sha256 "a83aca08fbe7aacb79fec788c9c0bac936343560ed9ec18b82a13a12c28d2abb"
+    url "https://files.pythonhosted.org/packages/1b/38/d7f80fd13e6582fb8e0df8c9a653dcc02b03ca34f4d72f34869298c5baf8/h2-4.2.0.tar.gz"
+    sha256 "c8a52129695e88b1a0578d8d2cc6842bbd79128ac685463b887ee278126ad01f"
   end
 
   resource "hpack" do
