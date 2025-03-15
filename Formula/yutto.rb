@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/24/a9/49ce8b2d28c58d4431fc5bc077cd6d3ae180dd395bbec13bb7d15bedbbed/yutto-2.0.1.tar.gz"
-  sha256 "c420ddf217aafe0a0f073bdf2a4cd5eccc7e982d52b23038c9ae50268373d579"
+  url "https://files.pythonhosted.org/packages/4a/17/83e856294b8aaeb83b82cb74f5f5520cf5cb5c404be8f87ae7a4e6653525/yutto-2.0.2.tar.gz"
+  sha256 "7176d7361157ab8e473a93e799cca6301bad3b35c682d8788d6f3100f4144622"
   license "GPL-3.0"
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
