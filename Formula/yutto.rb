@@ -11,6 +11,7 @@ class Yutto < Formula
   url "https://files.pythonhosted.org/packages/86/35/590c4e8c0bc78b501cfd8749b7868f59397245c86398b1a381bb32327476/yutto-2.1.0b1.tar.gz"
   sha256 "6cc15d336794efaa6b68740a01aa62bc69b755d42840e9553223553c9c4dc49c"
   license "GPL-3.0"
+  revision 1
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
   depends_on "ffmpeg"
@@ -117,6 +118,10 @@ class Yutto < Formula
   end
 
   def install
+    # yutto > aiofiles > hatchling, fix to `ZIP does not support timestamps before 1980` error
+    # Same as https://github.com/Homebrew/homebrew-core/pull/203263
+    ENV["SOURCE_DATE_EPOCH"] = Time.now.to_i.to_s
+
     virtualenv_install_with_resources
   end
 
