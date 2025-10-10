@@ -11,11 +11,11 @@ class Yutto < Formula
   url "https://files.pythonhosted.org/packages/d2/21/7fa3c6ad7455b1bac4c0a7f501a7fb9e12a535c45c5cee83d804f1b032dd/yutto-2.1.0.tar.gz"
   sha256 "b7bf0f5aedb2a12079d6dc454bf30558c741719c029eea56c7ffbd25f076de56"
   license "GPL-3.0"
-  revision 1
+  revision 2
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
   depends_on "ffmpeg"
-  depends_on "python@3.14"
+  depends_on "python@3.13"
 
   resource "aiofiles" do
     url "https://files.pythonhosted.org/packages/0b/03/a88171e277e8caa88a4c77808c20ebb04ba74cc4681bf1e9416c862de237/aiofiles-24.1.0.tar.gz"
