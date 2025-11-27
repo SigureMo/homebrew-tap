@@ -8,18 +8,17 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器（bilili2.x）"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/d2/21/7fa3c6ad7455b1bac4c0a7f501a7fb9e12a535c45c5cee83d804f1b032dd/yutto-2.1.0.tar.gz"
-  sha256 "b7bf0f5aedb2a12079d6dc454bf30558c741719c029eea56c7ffbd25f076de56"
+  url "https://files.pythonhosted.org/packages/40/ce/0d99a0c75be0b2271d62caeb554c08394a0e077324bff0c2135b42e9f942/yutto-2.1.1.tar.gz"
+  sha256 "da452b2d7c00adb913451f99c33c6b3a011a26a7593aec223133efa5b1151df9"
   license "GPL-3.0"
-  revision 2
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
   depends_on "ffmpeg"
   depends_on "python@3.13"
 
   resource "aiofiles" do
-    url "https://files.pythonhosted.org/packages/0b/03/a88171e277e8caa88a4c77808c20ebb04ba74cc4681bf1e9416c862de237/aiofiles-24.1.0.tar.gz"
-    sha256 "22a075c9e5a3810f0c2e48f3008c94d68c65d763b9b03857924c99e57355166c"
+    url "https://files.pythonhosted.org/packages/41/c3/534eac40372d8ee36ef40df62ec129bee4fdb5ad9706e58a29be53b2c970/aiofiles-25.1.0.tar.gz"
+    sha256 "a8d728f0a29de45dc521f18f07297428d56992a742f0cd2701ba86e44d23d5b2"
   end
 
   resource "annotated-types" do
@@ -33,13 +32,13 @@ class Yutto < Formula
   end
 
   resource "biliass" do
-    url "https://files.pythonhosted.org/packages/d7/fe/9f93a30aa06a80ddc8ddee1535ea5dbc5392108c368e78356b5dbe8145e3/biliass-2.3.0.tar.gz"
-    sha256 "2d1d1dfa7ba9b72663d6af5800691d920dbb7ec933a1a107877631883449e27c"
+    url "https://files.pythonhosted.org/packages/bd/7c/cdf64d6a9890025a62d5250c0376a7c223b7515d4e900bf2fd4ab1448f64/biliass-2.3.1.tar.gz"
+    sha256 "008e98107ec7d45ad787b6986605a62409cdd92083ed489ba0b6f2a20729539f"
   end
 
   resource "certifi" do
-    url "https://files.pythonhosted.org/packages/4c/5b/b6ce21586237c77ce67d01dc5507039d444b630dd76611bbca2d8e5dcd91/certifi-2025.10.5.tar.gz"
-    sha256 "47c09d31ccf2acf0be3f701ea53595ee7e0b8fa08801c6624be771df09ae7b43"
+    url "https://files.pythonhosted.org/packages/a2/8c/58f469717fa48465e4a50c014a0400602d3c437d7c0c468e17ada824da3a/certifi-2025.11.12.tar.gz"
+    sha256 "d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316"
   end
 
   resource "dict2xml" do
@@ -78,18 +77,18 @@ class Yutto < Formula
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/f1/70/7703c29685631f5a7590aa73f1f1d3fa9a380e654b86af429e0934a32f7d/idna-3.10.tar.gz"
-    sha256 "12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9"
+    url "https://files.pythonhosted.org/packages/6f/6d/0703ccc57f3a7233505399edb88de3cbd678da106337b9fcde432b65ed60/idna-3.11.tar.gz"
+    sha256 "795dafcc9c04ed0c1fb032c2aa73654d8e8c5023a7df64a53f39190ada629902"
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/c3/da/b8a7ee04378a53f6fefefc0c5e05570a3ebfdfa0523a878bcd3b475683ee/pydantic-2.12.0.tar.gz"
-    sha256 "c1a077e6270dbfb37bfd8b498b3981e2bb18f68103720e51fa6c306a5a9af563"
+    url "https://files.pythonhosted.org/packages/69/44/36f1a6e523abc58ae5f928898e4aca2e0ea509b5aa6f6f392a5d882be928/pydantic-2.12.5.tar.gz"
+    sha256 "4d351024c75c0f085a9febbb665ce8c0c6ec5d30e903bdb6394b7ede26aebb49"
   end
 
   resource "pydantic-core" do
-    url "https://files.pythonhosted.org/packages/7d/14/12b4a0d2b0b10d8e1d9a24ad94e7bbb43335eaf29c0c4e57860e8a30734a/pydantic_core-2.41.1.tar.gz"
-    sha256 "1ad375859a6d8c356b7704ec0f547a58e82ee80bb41baa811ad710e124bc8f2f"
+    url "https://files.pythonhosted.org/packages/71/70/23b021c950c2addd24ec408e9ab05d59b035b39d97cdc1130e1bce647bb6/pydantic_core-2.41.5.tar.gz"
+    sha256 "08daa51ea16ad373ffd5e7606252cc32f07bc72b28284b6bc9c6df804816476e"
   end
 
   resource "returns" do
