@@ -11,7 +11,6 @@ class Yutto < Formula
   url "https://files.pythonhosted.org/packages/0c/ff/808196e4c97acca76256eacd2545ec1b9fe5bc7414d05c824f2f3ae93eea/yutto-2.3.0.tar.gz"
   sha256 "b23271b98259341c5b5b3e309dbc370e086b6c855c5be81efe5714eed7f85b2d"
   license "GPL-3.0"
-  revision 1
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
   depends_on "ffmpeg"
