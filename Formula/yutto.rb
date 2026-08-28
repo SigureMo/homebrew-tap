@@ -8,8 +8,8 @@ class Yutto < Formula
 
   desc ":ice_cube: 一个可爱且任性的 B 站视频下载器"
   homepage "https://github.com/SigureMo/yutto"
-  url "https://files.pythonhosted.org/packages/0c/ff/808196e4c97acca76256eacd2545ec1b9fe5bc7414d05c824f2f3ae93eea/yutto-2.3.0.tar.gz"
-  sha256 "b23271b98259341c5b5b3e309dbc370e086b6c855c5be81efe5714eed7f85b2d"
+  url "https://files.pythonhosted.org/packages/a1/d6/0ccde5df5826d500b741ed07c66cc6c97feb92ac36a4dc3cd9d39ab40f33/yutto-2.3.1.tar.gz"
+  sha256 "c1f6558feea22412151d86ef3c415fcc4a6c03dc270171eca2916b5e25ca9bce"
   license "GPL-3.0"
 
   depends_on "rust" => :build # for `biliass` and `pydantic-core`
@@ -62,8 +62,8 @@ class Yutto < Formula
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/f7/96/e01084f83a64bcb3a27994bd0cb0db68ff29d9c6707fae37ec19b18ba990/websockets-17.0.1.tar.gz"
-    sha256 "5baa9bc0dfbae8c507e51c8cf1b6d4628086f7a87bbd3a9952bd5f035451f1cc"
+    url "https://files.pythonhosted.org/packages/18/72/fba934cb3dff7a85d811820efffcd141ddd52b5a2a01637f64551373ff4d/websockets-17.1.tar.gz"
+    sha256 "acfea4c20bf54384883ea33b1240fc1db4f52e190823a4e2b334bc3e8bfca96a"
   end
 
   def install
